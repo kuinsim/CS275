@@ -1,0 +1,13 @@
+/* External css file */
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#seed {
+    width: 10%;
+}
+
+select {
+    width: 10%;
+}

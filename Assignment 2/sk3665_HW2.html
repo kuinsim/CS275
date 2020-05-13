@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <!-- Link external style sheet -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Link JQuery Mobile style sheet from Google CDN-->
+        <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css"/>
+        <!-- Use external Javascript file -->
+        <script type="text/Javascript" src="forecast.js">
+        </script>
+        <!-- Use JQuery from Google CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+        </script>
+        <!-- Use JQuery Mobile from Google CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js">
+        </script>
+        <!-- Title for web page -->
+        <title>
+            Open Weather Map Web Page
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <!-- JQuery Mobile Header -->
+        <div data-role="header">
+            <h1>
+                Assignment 2
+            </h1>
+        </div>
+        <h1>
+            Open Weather Map Web Page
+        </h1>
+        <h3>
+            Suin Kim
+        </h3>
+        <img src="OpenWeatherMap.png">
+        <h2>
+            Forecast Retriever
+        </h2>
+        <!-- Form where user enters his/her API Key and ZIP Code -->
+        <div data-role="controlgroup" data-type="horizontal">
+            <form>
+                Enter API Key<br>
+                <input type="text" id="user_key"><br>
+                Enter ZIP Code<br>
+                <input type="text" id="user_zip"><br>
+                <input type="button" value="Retrieve" onclick="requestWeather()">
+            </form>
+        </div>
+        <div id="forecast_container">
+        </div>
+        <br>
+        <!-- JQuery Mobile footer -->
+        <div data-role="footer">
+            <h1>
+                CS275-002 Professor Augenblick
+            </h1>
+        </div>
+    </body>
+</html>

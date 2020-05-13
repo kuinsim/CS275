@@ -1,0 +1,8 @@
+Suin Kim CS275-002 Assignment 5
+Professor Augenblick
+
+Description:
+The files and code make up a client-server app with a MySQL database, Node.js server, HTML and Javascript client, and CSS styling. The purpose of this assignment was three-fold. First, get experience with MySQL databases, including how to install, set up a database, create and populate relational tables through the MySQL command line interface. Second, interface with a MySQL database through a Nodejs server. Third, gain experience in designing an application/website. As such, this assignment description will not be as explicit as earlier assignments regarding design items such as the presentation of the web page, flow of data between client and server and the organization of the web service code. 
+
+Instructions:
+Before using the client-server app, make sure that Node.js and MySQL are installed. In addition, make sure that the following modules are installed via npm: express, fs, body-parser, and mysql. Once everything is installed, use a command line such as Command Prompt and change the current working directory to the one that contains these files. Then, run the command "node server.js". After that, open a web browser of choice and type "localhost:8080/home" into the URL. From there, you can use the top navigation bar to traverse the site and visit different pages that allow you to display MySQL tables, search for student transcripts, or add students to the MySQL database. The MySQL database was created locally following the schema provided in the assignment 5 directions. A text file named "password.txt" with your MySQL password must be created in the project directory.

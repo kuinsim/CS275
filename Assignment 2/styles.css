@@ -1,0 +1,21 @@
+/* External css file */
+body {
+    text-align: center;
+    margin: 0 auto;
+    align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+#forecast_container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}

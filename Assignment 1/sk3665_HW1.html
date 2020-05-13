@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <!-- Link external style sheet -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Title for web page -->
+        <title>
+            Fibonacci Numbers
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <!-- Use external Javascript file -->
+        <script type="text/Javascript" src="fibonacci.js">
+        </script>
+        <h1>
+            Fibonacci Numbers
+        </h1>
+        <h3>
+            Suin Kim CS275-002 Assignment 1<br>Professor Augenblick
+        </h3>
+        <h2>
+            History of Fibonacci Numbers
+        </h2>
+        <div>
+            <!-- Paragraph about the history behind the Fibonacci sequence -->
+            <p>
+                Fibonacci is one of the most famous names in mathematics. This would come as a surprise to Leonardo Pisano, the mathematician we now know by that name. And he might have been equally surprised that he has been immortalised in the famous sequence – 0, 1, 1, 2, 3, 5, 8, 13, ... – rather than for what is considered his far greater mathematical achievement – helping to popularise our modern number system in the Latin-speaking world.
+                The Roman Empire left Europe with the Roman numeral system which we still see, amongst other places, in the copyright notices after films and TV programmes (2013 is MMXIII). The Roman numerals were not displaced until the mid 13th Century AD, and Leonardo Pisano's book, Liber Abaci (which means "The Book of Calculations"), was one of the first Western books to describe their eventual replacement.
+                Leonardo Pisano was born late in the twelfth century in Pisa, Italy: Pisano in Italian indicated that he was from Pisa, in the same way Mancunian indicates that I am from Manchester. His father was a merchant called Guglielmo Bonaccio and it's because of his father's name that Leonardo Pisano became known as Fibonacci. Centuries later, when scholars were studying the hand written copies of Liber Abaci (as it was published before printing was invented), they misinterpreted part of the title – "filius Bonacci" meaning "son of Bonaccio" – as his surname, and Fibonacci was born.
+                Fibonacci (as we'll carry on calling him) spent his childhood in North Africa where his father was a customs officer. He was educated by the Moors and travelled widely in Barbary (Algeria), and was later sent on business trips to Egypt, Syria, Greece, Sicily and Provence. In 1200 he returned to Pisa and used the knowledge he had gained on his travels to write Liber Abaci (published in 1202) in which he introduced the Latin-speaking world to the decimal number system. The first chapter of Part 1 begins:
+                "These are the nine figures of the Indians: 9 8 7 6 5 4 3 2 1. With these nine figures, and with this sign 0 which in Arabic is called zephirum, any number can be written, as will be demonstrated."
+                Italy at the time was made up of small independent towns and regions and this led to use of many kinds of weights and money systems. Merchants had to convert from one to another whenever they traded between these systems. Fibonacci wrote Liber Abaci for these merchants, filled with practical problems and worked examples demonstrating how simply commercial and mathematical calculations could be done with this new number system compared to the unwieldy Roman numerals. The impact of Fibonacci's book as the beginning of the spread of decimal numbers was his greatest mathematical achievement. However, Fibonacci is better remembered for a certain sequence of numbers that appeared as an example in Liber Abaci.
+            </p>
+            <p>
+                The life and numbers of Fibonacci. (2013, November 04). Retrieved from <a href="https://plus.maths.org/content/life-and-numbers-fibonacci">https://plus.maths.org/content/life-and-numbers-fibonacci</a>
+            </p>
+        </div>
+        <!-- Nested divs to align appropriate Fibonacci images next to each other -->
+        <div class="row">
+            <div class="column">
+                <img src="fibonacci1.jpg" alt="Leonardo Fibonacci c1175-1250" style="width:300px;height:300px">
+                <p>
+                    Leonardo Fibonacci c1175-1250.<br>Source:<a href="https://plus.maths.org/content/life-and-numbers-fibonacci">https://plus.maths.org/content/life-and-numbers-fibonacci</a>
+                </p>
+            </div>
+            <div class="column">
+                <img src="fibonacci2.png" alt="Fibonacci" style="width:300px;height:300px">
+                <p>
+                    Fibonacci Image.<br>Source:<a href="https://www.mjmatc.com/positional-integration/2017/8/27/fibonacci-spirals-and-human-movement">https://www.mjmatc.com/positional-integration/2017/8/27/fibonacci-spirals-and-human-movement</a>
+                </p>
+            </div>
+        </div>
+        <h2>
+            Fibonacci Calculator
+        </h2>
+        <div>
+            <form>
+                Enter a non-negative number:<br>
+                <!-- Text field -->
+                <input type="text" id="number"><br>
+                <!-- Button -->
+                <input type="button" value="Calculate" onclick="fibonacci()">
+            </form>
+        </div>
+        <!-- Empty divs -->
+        <div id="result">
+        </div>
+        <div id="result_table">
+        </div>
+    </body>
+</html>

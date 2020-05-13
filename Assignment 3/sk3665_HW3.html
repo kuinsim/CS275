@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <!-- Link external style sheet -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Use external Javascript file -->
+        <script type="text/Javascript" src="request.js">
+        </script>
+        <!-- Use JQuery from Google CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+        <!-- Title for web page -->
+        <title>
+            Assignment 3
+        </title>
+    </head>
+    <body>
+        <h1>
+            Assignment 3
+        </h1>
+        <h3>
+            Suin Kim CS275-002<br>Professor Augenblick
+        </h3>
+        <form>
+            <!-- Text field -->
+            Enter a positive integer<br>
+            <input type="text" id="seed"><br>
+            <!-- Dropdown menu -->
+            Select a calculation<br>
+            <select id="calculation">
+                <option value="fact">Factorial</option>
+                <option value="sum">Summation</option>
+            </select><br>
+            <!-- Button -->
+            <input type="button" value="Go" onclick="request()">
+        </form>
+        <div id="result">
+        </div>
+    </body>
+</html>

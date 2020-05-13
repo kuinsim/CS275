@@ -1,0 +1,20 @@
+/* external style sheet */
+
+/* keep images aligned next to each other */
+.column {
+    float: left;
+    width: 40%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* styling for table */
+.table, th, td {
+    border: 1px solid black;
+    width: 30%;
+}
